@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lilita One', cursive;
+}
+.about-h {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Caprasimo', cursive;
+    /* margin-top: 90px; */
+
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: -110px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Caprasimo', cursive;
+    margin-top: -110px;
+}
+.about p {
+    font-size: 2.5rem;
+
+}
+
+.bottom-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: -2x;
+}
+/* .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+} */
+
+@media (max-width:600px) {
+    .main {
+        flex-direction: column;
+    }
+    .profile {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* margin-top: -0px */
+    }
+   .about p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0px 10px;
+   }
+   .about-h {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+}
+}

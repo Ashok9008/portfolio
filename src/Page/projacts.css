@@ -1,0 +1,208 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    margin-top: 90px;
+    font-family: 'Caprasimo', cursive;
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    gap: 100px 50px;
+    margin-top: 90px;
+}
+.main .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    max-width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.main .card:hover {
+    height: 400px;
+    box-shadow: 0 10px 20px black;
+}
+.main .card .image{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.main .card:hover .image{
+    top: -100px;
+    scale: 0.75;
+}
+.main .card .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main .card .text{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    height: 35px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.main .card:hover .text {
+    top: 130px;
+    height: 250px;
+}
+.main .card .text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.main .card .text p {
+    color: black;
+    font-size: 2.5rem;
+}
+.main .card .text Link {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.main .card .text Link:hover {
+    opacity: 0.8;
+    color: black;
+}
+.btn1 {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(255, 106, 0, 0.1) inset;
+    position: relative;
+}
+.btn1:hover, .btn:focus {
+    opacity: 0.8;
+}
+
+.btn1:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.btn1.block {
+    display: block !important;
+}
+.btn1.circular {
+  border-radius: 50em !important;
+}
+.black {
+    background-color: #ff7002;
+}
+
+@media (max-width:1225px) {
+    .main .card {
+        width: 300px;
+        border-radius: 15px;
+    }
+    .main .card .image {
+        width: 240px;
+        border-radius: 10px;
+    }
+    .main .card .text p {
+        font-size: 1.9rem;
+        color: black;
+    }
+    .main .card .text Link{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:1076px) {
+    .main .card {
+        width: 250px;
+        border-radius: 15px;
+    }
+    .main .card .image {
+        width: 200px;
+        border-radius: 10px;
+    }
+    .main .card .text p {
+        font-size: 1.7rem;
+        color: black;
+    }
+    .main .card .text Link{
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width:965px) {
+    
+    .main .card {
+        width: 220px;
+        border-radius: 15px;
+    }
+    .main .card .image {
+        width: 170px;
+        border-radius: 10px;
+    }
+    .main .card .text p {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .main .card .text Link{
+        font-size: 0.7rem;
+    }
+    
+}
+
+@media (max-width:590px) {
+    .heading{
+        margin-top: -4px;
+    }
+   
+    .main .card {
+        width: 300px;
+        border-radius: 15px;
+    }
+    .main .card .image {
+        width: 240px;
+        border-radius: 10px;
+    }
+    .main .card .text p {
+        font-size: 1.5rem;
+        color: black;
+    }
+    .main .card .text Link{
+        font-size: 0.9rem;
+    }
+}

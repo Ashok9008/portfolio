@@ -1,0 +1,126 @@
+.home{
+    background: url(../images/img.2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 91.2vh;
+    width: 100%;
+    display: flex;
+}
+.hiro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Caprasimo', cursive;
+
+}
+.hiro-section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+}
+/* .hiro-section p {
+    font-size: 3rem;
+} */
+
+.taxt_1 {
+     font-size: 10rem;
+        background: -webkit-linear-gradient(#094c67, #056156);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.taxt_2{
+    font-size: 13rem;
+}
+ span.by {
+    font-size: 20rem;
+}
+
+.taxt_3{
+    font-size: 4.2rem;
+}
+.gif {
+    height: 142px;
+    margin-left: -19px;
+    margin-bottom: -14px;
+}
+@media (max-width:832px) {
+    .taxt_1 {
+        font-size: 10rem;
+           background: -webkit-linear-gradient(#094c67, #056156);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+   
+   }
+.taxt_2{
+    font-size: 10rem;
+}
+span.by {
+    font-size: 15rem;
+}
+.taxt_3{
+    font-size: 3.2rem;
+}
+
+.gif {
+    height: 114px;
+    margin-left: -16px;
+    margin-bottom: -12px;
+}
+    
+}
+@media (max-width:600px) {
+    .home{
+        background: url(../images/img.4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60rem;
+        width: 100%;
+        display: flex;
+    }
+
+    .hiro-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .hiro-section h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+
+    /* .hiro-section p {
+        font-size: 2.2rem;
+    } */
+.taxt_1 {
+        font-size: 6rem;
+           background: -webkit-linear-gradient(#094c67, #056156);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+   
+   }
+.taxt_2{
+    font-size: 5rem;
+}
+span.by {
+    font-size: 9rem;
+}
+.taxt_3{
+    font-size: 3.2rem;
+}
+
+.gif {
+    height: 56px;
+    margin-left: -7px;
+    margin-bottom: -6px;
+}
+}
+
