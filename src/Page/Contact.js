@@ -7,7 +7,7 @@ const Contact = () => {
   const formInitialDetails = {
     firstName:"",
     lastName:"",
-    Email:"",
+    email:"",
     phone:"",
     message:"",
   }
@@ -81,8 +81,8 @@ const Contact = () => {
 
             <div class="input-box">
               <input 
-                value={formDetails.Email}
-                onChange={(e) => onFormUpdate('Email',e.target.value)}
+                value={formDetails.email}
+                onChange={(e) => onFormUpdate('email',e.target.value)}
                 type="email" 
                 required="true"
                 id='email'
